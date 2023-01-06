@@ -115,7 +115,11 @@ header ul {
     background-image: url("https://tesla-view.thron.com/api/xcontents/resources/delivery/getThumbnail/tesla/150x172/010f69c3-2754-4d8d-86a5-72280c7bd901.jpg?v=25");
 }
 
-#modelS, #model3, #modelY, #solarP {
+#solarR {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/thumbnail/tesla/be7a261d-0558-4543-955f-9dbfd3c52f14/bvlatuR/std/440x506/SolarRoof_01?lcid=f42985a7-123c-479f-b782-afb4e6a5980f&v=40");
+}
+
+#modelS, #model3, #modelY, #solarP, #solarR {
     position: relative;
     height: 100vh;
     background-position: center;
