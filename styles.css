@@ -108,7 +108,12 @@ header ul {
     position: relative;
 }
 
-#modelS, #model3 {
+#modelY {
+    background-image: url("images/m3.jpg");
+    position: relative;
+}
+
+#modelS, #model3, #modelY {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
