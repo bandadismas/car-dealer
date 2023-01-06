@@ -53,6 +53,23 @@ header ul {
     display: none;
 }
 
+.cover {
+    display: none;
+}
+
+.show-cover {
+    display: block;
+    position: fixed;
+    top: 7vh;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 5;
+    background-color: black;
+}
+
+
+
 @media only screen and (max-width: 1040px) {
     .products, .misc {
         display: none;
@@ -61,5 +78,8 @@ header ul {
     #smallMenu {
         display: block;
         background-color: #E1EEF6;
+    }
+    #smallMenu:hover {
+        cursor: pointer;
     }
 }
