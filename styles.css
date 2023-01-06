@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    padding: 0.6rem 2rem;
+    opacity: 1;
+}
+
+.title {
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 300ms ease;
+}
+
+.nav-item:hover {
+    background-color: #E1EEF6;
+}
+
+#smallMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 1040px) {
+    .products, .misc {
+        display: none;
+    }
+
+    #smallMenu {
+        display: block;
+        background-color: #E1EEF6;
+    }
+}
