@@ -105,15 +105,18 @@ header ul {
 
 #model3 {
     background-image: url("images/m2.jpg");
-    position: relative;
 }
 
 #modelY {
     background-image: url("images/m3.jpg");
-    position: relative;
 }
 
-#modelS, #model3, #modelY {
+#solarP {
+    background-image: url("https://tesla-view.thron.com/api/xcontents/resources/delivery/getThumbnail/tesla/150x172/010f69c3-2754-4d8d-86a5-72280c7bd901.jpg?v=25");
+}
+
+#modelS, #model3, #modelY, #solarP {
+    position: relative;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
