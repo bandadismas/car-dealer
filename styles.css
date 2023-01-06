@@ -18,6 +18,7 @@ header {
     padding: 0.6rem 2rem;
     opacity: 1;
     width: 95%;
+    z-index: 20;
 }
 
 .title {
@@ -63,7 +64,6 @@ header ul {
 .show-cover {
     display: block;
     position: fixed;
-    top: 7vh;
     height: 100vh;
     width: 100%;
     opacity: 0.7;
@@ -100,8 +100,16 @@ header ul {
 
 /* model S */
 #modelS {
-    height: 100vh;
     background-image: url("images/m1.jpg");
+}
+
+#model3 {
+    background-image: url("images/m2.jpg");
+    position: relative;
+}
+
+#modelS, #model3 {
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
