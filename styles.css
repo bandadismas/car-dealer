@@ -57,6 +57,10 @@ header ul {
     display: none;
 }
 
+#bigMenu {
+    cursor: pointer;
+}
+
 .cover {
     display: none;
 }
